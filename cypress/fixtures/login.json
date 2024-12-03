@@ -1,0 +1,10 @@
+{
+  "validUser": {
+    "userName": "andre",
+    "password": "Hello1@cypress.io"
+  },
+  "invalidUser": {
+    "userName": "wronguser",
+    "password": "wrongpass"
+  }
+}
