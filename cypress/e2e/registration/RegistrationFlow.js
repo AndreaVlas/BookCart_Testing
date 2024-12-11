@@ -1,11 +1,10 @@
 import HomePage from "../../pageObjects/HomePage";
 import Registration from "../../pageObjects/Register";
 describe("Open my page", () => {
-  // Load test data before running the tests
   before(function () {
     // Load the "registration" fixture file and assign its data to `this.data` for access in tests
     cy.fixture("registration").then(function (data) {
-      this.data = data; // Stores the fixture data in `this` for test use
+      this.data = data;
     });
   });
 
